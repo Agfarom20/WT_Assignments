@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical Instruments</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+            font-family:  'sans-serif';
+            color: #333333;
+        }
+        .navbar {
+            background-color: #333333 !important;
+        }
+        .navbar-brand, .nav-link {
+            color: #f0f0f0 !important;
+        }
+        .navbar-brand:hover, .nav-link:hover {
+            color: #ff9a9e !important;
+        }
+        .section-title {
+            color: #333333;
+            font-weight: bold;
+        }
+        .instrument-card {
+            background-color: #ffffff;
+            border: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .instrument-card h2 {
+            color: #ff7e79;
+        }
+        .interactive-section {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            color: #ff7e79;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#home">Musical Instruments</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#instruments">Instruments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#learning">Learning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tips">Maintenance</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div class="container text-center py-5">
+        <h1 class="section-title">Discover the World of Musical Instruments</h1>
+        <p class="lead">Explore, learn, and master the art of music with our interactive guide to musical instruments.</p>
+    </div>
+
+    
+    <div class="container my-5" id="instruments">
+        <h2 class="section-title text-center mb-4">Instruments</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="instrument-card text-center">
+                    <h2>Guitar</h2>
+                    <p>The guitar is a versatile string instrument used for chords, melodies, and solos. It's perfect for beginners and experts alike.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="instrument-card text-center">
+                    <h2>Keyboard</h2>
+                    <p>An electronic instrument that replicates piano tones and offers a wide variety of sounds for all music styles.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="instrument-card text-center">
+                    <h2>Saxophone</h2>
+                    <p>The saxophone is a soulful woodwind instrument, best known for its role in jazz, blues, and classical performances.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="instrument-card text-center">
+                    <h2>Violin</h2>
+                    <p>A classical string instrument that produces beautiful, high-pitched tones, ideal for orchestral and solo performances.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="instrument-card text-center">
+                    <h2>Drums</h2>
+                    <p>Drums create the rhythm and beats in music. They are essential for setting the tempo in various genres.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="instrument-card text-center">
+                    <h2>Flute</h2>
+                    <p>A wind instrument that produces soft, melodious sounds, commonly used in classical and folk music.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    
+    <div class="container my-5">
+        <h2 id="learning" class="section-title">Learning Music</h2>
+        <p>Start your musical journey by selecting an instrument you love. Dedicate time daily to practice, and explore online tutorials for guidance.</p>
+
+        <h2 id="tips" class="section-title">Maintenance Tips</h2>
+        <p>Maintain your instruments with proper cleaning, storage, and periodic servicing to ensure optimal performance and longevity.</p>
+    </div>
+
+   
+    <div class="container my-5">
+        <h2 class="section-title text-center">Explore More</h2>
+        <ul>
+            <li><a href="https://www.musicradar.com/" target="_blank">Music Radar: Tips & Guides</a></li>
+            
+        </ul>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
