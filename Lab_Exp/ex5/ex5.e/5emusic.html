@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Page Visit</title>
+    <link rel="stylesheet" href="5emusic.css"> <!-- External CSS file -->
+</head>
+<body>
+    <h1>Welcome to the Music Page</h1>
+    <form action="5e" method="POST">
+        <label for="instrument">Select a Musical Instrument:</label>
+        <select id="instrument" name="instrument">
+            <option value="Guitar">Guitar</option>
+            <option value="Piano">Piano</option>
+            <option value="Drums">Drums</option>
+            <option value="Violin">Violin</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <p>Page visits: <strong id="visitCount">Loading...</strong></p>
+</body>
+</html>

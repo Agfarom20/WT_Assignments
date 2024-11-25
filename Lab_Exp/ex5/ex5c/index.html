@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical Instrument Session Handling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 4px;
+            background-color: #e0ebe0;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Session Handling with Musical Instruments</h2>
+        <form action="5c" method="POST">
+            <label for="username">Musician Name:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="age">Years Playing Instrument:</label>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <!-- Buttons for each session handling method -->
+            <button type="submit" name="method" value="cookie">Use Cookies</button>
+            <button type="submit" name="method" value="httpsession">Use HttpSession</button>
+            <button type="submit" name="method" value="urlrewriting">Use URL Rewriting</button>
+            <button type="submit" name="method" value="hiddenform">Use Hidden Form Fields</button>
+        </form>
+    </div>
+</body>
+</html>
